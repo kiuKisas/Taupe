@@ -5,7 +5,7 @@
 ** Login   <kinoo_m@epitech.net>
 **
 ** Started on  Mon Dec 15 05:48:55 2014 Martin Kinoo
-** Last update Fri Dec 19 05:16:04 2014 Martin Kinoo
+** Last update Fri Jun  5 22:17:41 2015 Martin Kinoo
 */
 
 #include	<unistd.h>
@@ -20,7 +20,7 @@ static void	hide_menu(t_taupe *taupe, t_opt *act)
   delwin(taupe->main->win);
   taupe->menu = taupe->task->menu;
   delwin(taupe->main_top->win);
-  taupe->bottom_mess = my_strdup("F1 SortBy    F2 Kill");
+  taupe->bottom_mess = my_strdup("F3 SortBy    F4 Kill");
   main_win(5, 0, taupe);
 }
 

@@ -5,7 +5,7 @@
 ** Login   <kinoo_m@epitech.net>
 **
 ** Started on  Sun Dec 14 18:14:16 2014 Martin Kinoo
-** Last update Fri Dec 19 06:19:15 2014 Martin Kinoo
+** Last update Fri Jun  5 22:14:56 2015 Martin Kinoo
 */
 
 #include	<unistd.h>
@@ -74,9 +74,9 @@ void		keypad_manager(t_taupe *taupe)
     menu_down(taupe->menu);
   else if (key == KEY_UP)
     menu_up(taupe->menu);
-  else if (key == KEY_F(1))
+  else if (key == KEY_F(3))
     f_manager(taupe, taupe->sort, taupe->signal);
-  else if (key == KEY_F(2))
+  else if (key == KEY_F(4))
     f_manager(taupe, taupe->signal, taupe->sort);
   else if (key == 10)
     menu_enter(taupe);

@@ -5,7 +5,7 @@
 ** Login   <kinoo_m@epitech.net>
 **
 ** Started on  Mon Dec  8 16:45:48 2014 Martin Kinoo
-** Last update Tue Dec 23 06:46:15 2014 Martin Kinoo
+** Last update Fri Jun  5 22:20:48 2015 Martin Kinoo
 */
 
 #include		<stdlib.h>
@@ -65,7 +65,7 @@ static void		init_curses(t_taupe *taupe)
   keypad(taupe->top->win, TRUE);
   signal_win(taupe->signal, 5);
   sort_win(taupe->sort, 5);
-  taupe->bottom_mess = my_strdup("F1 Sort    F2 Kill");
+  taupe->bottom_mess = my_strdup("F3 Sort    F4 Kill");
   taupe->menu = taupe->task->menu;
   taupe->tri = &tri_cpu;
 }

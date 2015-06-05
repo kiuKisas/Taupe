@@ -5,7 +5,7 @@
 ** Login   <kinoo_m@epitech.net>
 **
 ** Started on  Tue Dec 16 18:20:51 2014 Martin Kinoo
-** Last update Fri Dec 19 06:20:07 2014 Martin Kinoo
+** Last update Fri Jun  5 22:28:06 2015 Martin Kinoo
 */
 
 #include	"taupe.h"
@@ -45,7 +45,7 @@ static void	signal_win_extra(t_opt *signal)
 void		signal_win(t_opt *signal, int top)
 {
   opt_win(signal, top);
-  signal->str = my_strdup("Enter Send   F2 Cancel");
+  signal->str = my_strdup("Enter Send   F4 Cancel");
   new_list(&(signal->list));
   add_elem(&(signal->list), my_strdup("1 SIGHUP"));
   add_elem(&(signal->list), my_strdup("2 SIGINT"));
@@ -73,7 +73,7 @@ void		sort_win(t_opt *sort, int top)
 {
   opt_win(sort, top);
   sort->menu->len = LINES - 9;
-  sort->str = my_strdup("Enter Sort   F1 Cancel");
+  sort->str = my_strdup("Enter Sort   F3 Cancel");
   new_list(&(sort->list));
   add_elem(&(sort->list), my_strdup("PID"));
   add_elem(&(sort->list), my_strdup("USER"));
