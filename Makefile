@@ -5,7 +5,7 @@
 ## Login   <kinoo_m@epitech.net>
 ##
 ## Started on  Mon Dec  8 16:38:56 2014 Martin Kinoo
-## Last update Fri Dec 19 06:24:16 2014 Martin Kinoo
+## Last update Sat Jun 20 15:57:32 2015 Martin Kinoo
 ##
 
 NAME=		taupe
@@ -54,6 +54,7 @@ SRC=		src/print.c	\
 		src/fonctions/my_strcmp.c	\
 		src/fonctions/my_strcat.c	\
 		src/fonctions/my_strndup.c	\
+		src/my_exit.c 
 
 OBJ=		$(SRC:.c=.o)
 

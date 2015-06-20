@@ -5,7 +5,7 @@
 ** Login   <kinoo_m@epitech.net>
 **
 ** Started on  Mon Dec  8 16:45:41 2014 Martin Kinoo
-** Last update Fri Dec 19 05:43:39 2014 Martin Kinoo
+** Last update Fri Jun 19 18:48:30 2015 Martin Kinoo
 */
 
 #ifndef		_TAUPE_H_
@@ -224,5 +224,7 @@ int		tri_state(t_proc *, t_proc *);
 int		tri_command(t_proc *, t_proc *);
 
 void		print_signal(t_opt *, int);
+
+void		my_exit(t_taupe *);
 
 #endif
